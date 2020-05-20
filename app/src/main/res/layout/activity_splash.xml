@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash"
-    android:background="#ff9c25">
+    android:background="#fff">
 
     <ImageView
         android:id="@+id/logoimage"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/concert_one"
         android:text="CASIS"
-        android:textColor="#fff"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:fontFamily="@font/concert_one"
         android:text="ISBN CAS CHECKER"
         android:textAlignment="center"
-        android:textColor="#fff"
+        android:textColor="@color/colorAccent"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
